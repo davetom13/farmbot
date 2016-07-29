@@ -1,0 +1,48 @@
+// Styles for ALL WIDGETS
+
+@import 'colors';
+
+.widget-wrapper {
+  box-shadow: 0px 0px 10px $gray;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+  .widget-wrapper {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.widget-header {
+  background: $dark_gray;
+  letter-spacing: .05rem;
+  padding: .75rem 1rem;
+  h5 {
+    color: $gray;
+    font-size: 1.2rem;
+    margin: .25rem;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1rem;
+    font-style: italic;
+  }
+}
+
+.widget-control {
+  margin-top: 0.7rem;
+  margin-right: 1.5rem;
+}
+
+.widget-content {
+  background: $off_white;
+  border-color: $light_gray;
+  color: $dark_gray;
+  padding: 1.25rem;
+  &.calendar-wrapper {
+    padding-bottom: 20px;
+  }
+  &.no-bottom-padding {
+    padding-bottom: 0px;
+  }
+}

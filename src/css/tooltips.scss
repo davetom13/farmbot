@@ -1,0 +1,16 @@
+// Styles for TOOLTIPS
+
+@import 'colors';
+
+.tooltip{
+  padding: 2px;
+  display: inline;
+  .tooltip-text {
+    font-style: normal;
+    display: inline;
+    background-color: $dark_gray;
+    color: $off_white;
+    border-radius: 3px;
+    padding: .5rem .8rem;
+  }
+}
